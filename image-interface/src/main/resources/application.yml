@@ -1,0 +1,13 @@
+server:
+  port: 7530
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: image-interface
+
+image:
+  client:
+    access-key: image
+    secret-key: abcdefgh
